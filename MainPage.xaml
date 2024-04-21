@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ERInv.MainPage" 
+             xmlns:collections="clr-namespace:System.Collections;assembly=mscorlib" >
+    <ContentPage.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor"
+                                        Value="LightSkyBlue" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+    <ScrollView>
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="20,20"
+        VerticalOptions="Start" >
+        <Entry x:Name="searchFor" 
+           Placeholder="Enter up to 2 terms separated by a space"
+           FontSize="18"
+           MaxLength="30"
+           ClearButtonVisibility="WhileEditing" />
+        <Button x:Name="ButtonSearch"
+                WidthRequest="100"
+                BackgroundColor="DarkSlateGrey" 
+                Text="Search"
+                Clicked="ButtonSearch_Clicked" />
+    
+        <CollectionView x:Name="collectionView"
+                        ItemsSource="{Binding Products}" 
+                        SelectionMode="Single" 
+                        SelectionChanged="OnCollectionViewSelectionChanged" >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150" />
+                            <ColumnDefinition Width="150" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>    
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Text="{Binding Imf}"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            TextColor="Crimson"/>
+                        <Label
+                            Grid.ColumnSpan="3"
+                            Grid.RowSpan="2"
+                            Grid.Column="0"
+                            Grid.Row="1"
+                            Text="{Binding Description}"
+                            FontSize="15"
+                            LineBreakMode="WordWrap"/>
+                        <Label
+                            Grid.Column="0"
+                            Grid.Row="3"
+                            Text="Isssued By: " />
+                        <Label
+                            Grid.Column="1"
+                            Grid.Row="3"
+                            Text="{Binding Type_issue}" 
+                            HorizontalTextAlignment="Start"/>
+                            <Label
+                            Grid.Column="0"
+                            Grid.Row="4"
+                            Text="Vendor Num: " />
+                            <Label
+                            Grid.Column="1"
+                            Grid.Row="4"
+                            Text="{Binding Vend_num}" 
+                            HorizontalTextAlignment="Start"/>
+                            <Label
+                            Grid.Row="5"
+                            Grid.Column="0"
+                            Text="Mfg. Num: " />
+                            <Label
+                            Grid.Column="1"
+                            Grid.Row="5"
+                            Text="{Binding Man_num}" 
+                            HorizontalTextAlignment="Start" />
+                            <Label
+                            Grid.Column="0"
+                            Grid.Row="6"
+                            Text="Location: " />
+                            <Label
+                            Grid.Column="1"
+                            Grid.Row="6"
+                            Text="{Binding Location}"
+                            HorizontalTextAlignment="Start" />
+                    </Grid>    
+                </DataTemplate>    
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+    </ScrollView>
+    
+    
+</ContentPage>
+
+

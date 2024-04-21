@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ERInv.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ERInv"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="WX Distribution Primary Inventory" 
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent
+        Title="Barsamian Map"
+        ContentTemplate="{DataTemplate local:Map}"
+        Route="Map" />
+</Shell>
