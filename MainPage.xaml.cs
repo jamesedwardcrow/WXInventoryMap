@@ -43,17 +43,9 @@ namespace ERInv
 
                    Products = JsonSerializer.Deserialize<List<Product>>(result);
 
-                   collectionView.ItemsSource= Products;
+                    collectionView.ItemsSource = Products;
 
-                    //var prods = new ObservableCollection<Product>();
-                    //foreach (var product in list)
-                    //{
-                    //    //prods.Add(product);
-                    //    prods.Add;
-                    //}
-
-                    //    Prods.Add(System.Text.Json.JsonSerializer.Deserialize<ProductList>(result));
-                    
+                   
                 }
                 else
                 {
@@ -129,26 +121,5 @@ namespace ERInv
 
 }
 
-//if response.IsSuccessStatusCode fails - inform user via community toolkit's toast
-//CancellationTokenSource cancellationTokenSource = new();
-//string text = "Item not found in this inventory!";
-//ToastDuration duration = ToastDuration.Long;
-//double fontSize = 14;
-
-//var toast = Toast.Make(text, duration, fontSize);
-
-// await toast.Show(cancellationTokenSource.Token);
-
-
-//if Network.Internet fails - inform user via community toolkit's toast
-//CancellationTokenSource cancellationTokenSource = new();
-//string text = "No internet connection!";
-//ToastDuration duration = ToastDuration.Long;
-//double fontSize = 14;
-
-//var toast = Toast.Make(text, duration, fontSize);
-
-//await toast.Show(cancellationTokenSource.Token);
-//int itemnum = int.Parse(entryIMF.Text);
 
 
