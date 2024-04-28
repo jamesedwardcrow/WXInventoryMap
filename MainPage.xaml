@@ -20,30 +20,34 @@
             </Setter>
         </Style>
     </ContentPage.Resources>
-    <ScrollView>
-    <VerticalStackLayout
-        Spacing="25"
-        Padding="20,20"
-        VerticalOptions="Start" >
-        <Entry x:Name="searchFor" 
-           Placeholder="Enter up to 2 terms separated by a space"
-           FontSize="18"
-           MaxLength="30"
-           ClearButtonVisibility="WhileEditing" />
-        <Button x:Name="ButtonSearch"
-                WidthRequest="100"
-                BackgroundColor="DarkSlateGrey" 
-                Text="Search"
-                Clicked="ButtonSearch_Clicked" />
-    
-        <CollectionView x:Name="collectionView"
+        <ScrollView>
+            <VerticalStackLayout 
+             Spacing="0"
+                Padding="20,0"
+                VerticalOptions="Start" >
+                <Entry x:Name="searchFor" 
+                Placeholder="Up to 2 terms separated by a space"
+                 FontSize="18"
+                MaxLength="35"
+                Margin="0,20,0,20"
+                ClearButtonVisibility="WhileEditing" />
+                <Button x:Name="ButtonSearch"
+                    WidthRequest="100"
+                    Margin="0,0,0,0"
+                    BackgroundColor="DarkSlateGrey" 
+                    Text="Search"
+                    Clicked="ButtonSearch_Clicked" />
+            <ActivityIndicator x:Name="actind"  Color="Red" IsRunning="{Binding Source=IsBusy}" IsVisible="True" Margin="0,10,0,0"/>
+
+                    <CollectionView x:Name="collectionView"
                         ItemsSource="{Binding Products}" 
-                        SelectionMode="Single" 
+                        SelectionMode="Single"
+                        
                         SelectionChanged="OnCollectionViewSelectionChanged" >
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Grid Padding="10" >
-                        <Grid.RowDefinitions>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Padding="10,5" VerticalOptions="Start">
+                            <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="Auto" />
@@ -51,8 +55,8 @@
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="Auto" />
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="150" />
                             <ColumnDefinition Width="150" />
                                 <ColumnDefinition Width="*" />
@@ -108,11 +112,11 @@
                             Grid.Row="6"
                             Text="{Binding Location}"
                             HorizontalTextAlignment="Start" />
-                    </Grid>    
-                </DataTemplate>    
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-    </VerticalStackLayout>
+                        </Grid>    
+                    </DataTemplate>    
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
     </ScrollView>
     
     

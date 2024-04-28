@@ -5,103 +5,105 @@
              Title="Barsamian Map" 
              Shell.NavBarHasShadow="True">
 
-    <ScrollView Orientation="Vertical" Margin="0,0,0,0">
-    
-        <Grid RowDefinitions="Auto,*,Auto" ColumnDefinitions="*" WidthRequest="800" HeightRequest="1000">
+    <ScrollView Orientation="Vertical"  Margin="0,0,0,0">
 
-            <Rectangle x:Name="C01" HorizontalOptions="Start" HeightRequest="91" Margin="78,847,0,0" Stroke="Navy"  VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C02" HorizontalOptions="Start" HeightRequest="92" Margin="78,750,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C03" HorizontalOptions="Start" HeightRequest="103" Margin="78,606,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C04" HorizontalOptions="Start" HeightRequest="103" Margin="78,498,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C05" HorizontalOptions="Start" HeightRequest="105" Margin="78,387,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C06" HorizontalOptions="Start" HeightRequest="104" Margin="78,278,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C07" HorizontalOptions="Start" HeightRequest="105" Margin="78,169,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C08" HorizontalOptions="Start" HeightRequest="105" Margin="78,59,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C09" HorizontalOptions="Start" HeightRequest="89" Margin="144,55,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C10" HorizontalOptions="Start" HeightRequest="89" Margin="144,150,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C11" HorizontalOptions="Start" HeightRequest="89" Margin="144,244,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C12" HorizontalOptions="Start" HeightRequest="89" Margin="144,338,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C13" HorizontalOptions="Start" HeightRequest="89" Margin="144,432,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C14" HorizontalOptions="Start" HeightRequest="89" Margin="144,527,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C15" HorizontalOptions="Start" HeightRequest="89" Margin="144,620,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C16" HorizontalOptions="Start" HeightRequest="89" Margin="174,620,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C17" HorizontalOptions="Start" HeightRequest="89" Margin="174,527,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C18" HorizontalOptions="Start" HeightRequest="89" Margin="174,432,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C19" HorizontalOptions="Start" HeightRequest="89" Margin="174,338,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C20" HorizontalOptions="Start" HeightRequest="89" Margin="174,244,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C21" HorizontalOptions="Start" HeightRequest="89" Margin="174,150,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C22" HorizontalOptions="Start" HeightRequest="89" Margin="174,55,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C23" HorizontalOptions="Start" HeightRequest="105" Margin="237,165,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C24" HorizontalOptions="Start" HeightRequest="105" Margin="237,275,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C25" HorizontalOptions="Start" HeightRequest="105" Margin="237,385,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C26" HorizontalOptions="Start" HeightRequest="105" Margin="237,495,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C27" HorizontalOptions="Start" HeightRequest="105" Margin="236,604,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C28" HorizontalOptions="Start" HeightRequest="84" Margin="266,624,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C29" HorizontalOptions="Start" HeightRequest="87" Margin="266,533,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C30" HorizontalOptions="Start" HeightRequest="84" Margin="267,444,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C31" HorizontalOptions="Start" HeightRequest="87" Margin="267,351,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C32" HorizontalOptions="Start" HeightRequest="87" Margin="267,258,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C33" HorizontalOptions="Start" HeightRequest="87" Margin="267,165,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C34" HorizontalOptions="Start" HeightRequest="28" Margin="237,136,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="59" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C35" HorizontalOptions="Start" HeightRequest="105" Margin="324,164,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C36" HorizontalOptions="Start" HeightRequest="105" Margin="324,274,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C37" HorizontalOptions="Start" HeightRequest="105" Margin="324,494,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C38" HorizontalOptions="Start" HeightRequest="105" Margin="324,604,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
-            <Rectangle x:Name="C39" HorizontalOptions="Start" HeightRequest="38" Margin="252,793,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="63" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C40" HorizontalOptions="Start" HeightRequest="38" Margin="315,793,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="63" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C41" HorizontalOptions="Start" HeightRequest="38" Margin="315,750,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="63" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C42" HorizontalOptions="Start" HeightRequest="105" Margin="354,164,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C43" HorizontalOptions="Start" HeightRequest="38" Margin="280,55,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="102" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C44" HorizontalOptions="Start" HeightRequest="38" Margin="252,750,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="63" StrokeThickness="3" Fill="Gray"/>
-            <Rectangle x:Name="C45" HorizontalOptions="Start" HeightRequest="105" Margin="324,384,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="4" Fill="#FF0B1C52"/>
-            <Rectangle x:Name="S1" HorizontalOptions="Start" HeightRequest="200" Margin="20,60,0,0" Stroke="Black" VerticalOptions="StartAndExpand"  WidthRequest="30" StrokeThickness="4" Fill="#FFA46666"/>
-            <Rectangle x:Name="S2" HorizontalOptions="Start" HeightRequest="200" Margin="20,740,0,0" Stroke="Black" VerticalOptions="StartAndExpand" WidthRequest="30" StrokeThickness="4" Fill="#FFA46666"/>
-            <Rectangle x:Name="S3" HorizontalOptions="Start"  HeightRequest="410" Margin="20,290,0,0" Stroke="Black" VerticalOptions="StartAndExpand"  WidthRequest="30" StrokeThickness="4" Fill="#FFA46666"/>
-            <Label x:Name="T01"  HorizontalOptions="Start" Margin="79,877,0,0"  Text="C01" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T02"  HorizontalOptions="Start" Margin="79,790,0,0"  Text="02" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T03"  HorizontalOptions="Start" Margin="79,646,0,0"  Text="03" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T04"  HorizontalOptions="Start" Margin="79,536,0,0"  Text="04" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T05"  HorizontalOptions="Start" Margin="79,430,0,0"  Text="05" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T06"  HorizontalOptions="Start" Margin="79,320,0,0"  Text="06" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T07"  HorizontalOptions="Start" Margin="79,215,0,0"  Text="07" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T08"  HorizontalOptions="Start" Margin="79,101,0,0"  Text="C08" VerticalOptions="Start" FontSize="16" FontAttributes="Bold" TextColor="White" />
-            <Label x:Name="T09"  HorizontalOptions="Start" Margin="145,94,0,0"  Text="A09" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T10"  HorizontalOptions="Start" Margin="145,184,0,0"  Text="10" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T11"  HorizontalOptions="Start" Margin="145,275,0,0"  Text="11" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T12"  HorizontalOptions="Start" Margin="145,373,0,0"  Text="12" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T13"  HorizontalOptions="Start" Margin="145,465,0,0"  Text="13" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T14"  HorizontalOptions="Start" Margin="145,561,0,0"  Text="14" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T15"  HorizontalOptions="Start" Margin="145,646,0,0"  Text="15" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T16"  HorizontalOptions="Start" Margin="175,646,0,0"  Text="A16" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T17"  HorizontalOptions="Start" Margin="175,561,0,0"  Text="17" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T18"  HorizontalOptions="Start" Margin="175,465,0,0"  Text="18" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T19"  HorizontalOptions="Start" Margin="175,373,0,0"  Text="19" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T20"  HorizontalOptions="Start" Margin="175,275,0,0"  Text="20" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T21"  HorizontalOptions="Start" Margin="175,184,0,0"  Text="21" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T22"  HorizontalOptions="Start" Margin="175,94,0,0"  Text="22" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T23"  HorizontalOptions="Start" Margin="237,201,0,0"  Text="B23" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T24"  HorizontalOptions="Start" Margin="237,313,0,0"  Text="24" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T25"  HorizontalOptions="Start" Margin="237,429,0,0"  Text="25" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T26"  HorizontalOptions="Start" Margin="237,539,0,0"  Text="26" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T27"  HorizontalOptions="Start" Margin="237,640,0,0"  Text="27" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T28"  HorizontalOptions="Start" Margin="267,651,0,0"  Text="A28" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T29"  HorizontalOptions="Start" Margin="267,561,0,0"  Text="29" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T30"  HorizontalOptions="Start" Margin="267,473,0,0"  Text="30" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T31"  HorizontalOptions="Start" Margin="267,384,0,0"  Text="31" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T32"  HorizontalOptions="Start" Margin="267,288,0,0"  Text="32" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T33"  HorizontalOptions="Start" Margin="269,201,0,0"  Text="D33" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T34"  HorizontalOptions="Start" Margin="256,139,0,0"  Text="34" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T35"  HorizontalOptions="Start" Margin="325,207,0,0"  Text="A35" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T36"  HorizontalOptions="Start" Margin="325,317,0,0"  Text="36" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T37"  HorizontalOptions="Start" Margin="325,530,0,0"  Text="37" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T38"  HorizontalOptions="Start" Margin="325,640,0,0"  Text="38" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T39"  HorizontalOptions="Start" Margin="270,801,0,0"  Text="C39" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T40"  HorizontalOptions="Start" Margin="333,801,0,0"  Text="A40" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T41"  HorizontalOptions="Start" Margin="333,758,0,0"  Text="41" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T42"  HorizontalOptions="Start" Margin="355,207,0,0"  Text="C42" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T43"  HorizontalOptions="Start" Margin="318,63,0,0"  Text="B43" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-            <Label x:Name="T44"  HorizontalOptions="Start" Margin="270,758,0,0"  Text="44" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="White" />
-    
+        <Grid RowDefinitions="1*,1*,1*,1*" ColumnDefinitions="1*,1*,1*,1*" WidthRequest="720" HeightRequest="1000" Margin="0,0,0,0" >
+
+            <Rectangle x:Name="C01" HorizontalOptions="Start" HeightRequest="91" Margin="50,817,0,0" Stroke="Navy"  VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C02" HorizontalOptions="Start" HeightRequest="92" Margin="50,720,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C03" HorizontalOptions="Start" HeightRequest="103" Margin="50,576,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C04" HorizontalOptions="Start" HeightRequest="103" Margin="50,468,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C05" HorizontalOptions="Start" HeightRequest="105" Margin="50,357,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C06" HorizontalOptions="Start" HeightRequest="104" Margin="50,248,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C07" HorizontalOptions="Start" HeightRequest="105" Margin="50,139,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C08" HorizontalOptions="Start" HeightRequest="105" Margin="50,25,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C09" HorizontalOptions="Start" HeightRequest="89" Margin="112,25,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C10" HorizontalOptions="Start" HeightRequest="89" Margin="112,120,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C11" HorizontalOptions="Start" HeightRequest="89" Margin="112,214,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C12" HorizontalOptions="Start" HeightRequest="89" Margin="112,308,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C13" HorizontalOptions="Start" HeightRequest="89" Margin="112,402,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C14" HorizontalOptions="Start" HeightRequest="89" Margin="112,497,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C15" HorizontalOptions="Start" HeightRequest="89" Margin="112,590,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C16" HorizontalOptions="Start" HeightRequest="89" Margin="142,590,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C17" HorizontalOptions="Start" HeightRequest="89" Margin="142,497,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C18" HorizontalOptions="Start" HeightRequest="89" Margin="142,402,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C19" HorizontalOptions="Start" HeightRequest="89" Margin="142,308,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C20" HorizontalOptions="Start" HeightRequest="89" Margin="142,214,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C21" HorizontalOptions="Start" HeightRequest="89" Margin="142,120,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C22" HorizontalOptions="Start" HeightRequest="89" Margin="142,25,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C23" HorizontalOptions="Start" HeightRequest="105" Margin="205,135,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C24" HorizontalOptions="Start" HeightRequest="105" Margin="205,245,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C25" HorizontalOptions="Start" HeightRequest="105" Margin="205,355,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C26" HorizontalOptions="Start" HeightRequest="105" Margin="205,465,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C27" HorizontalOptions="Start" HeightRequest="105" Margin="205,574,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C28" HorizontalOptions="Start" HeightRequest="84" Margin="234,594,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C29" HorizontalOptions="Start" HeightRequest="87" Margin="234,503,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C30" HorizontalOptions="Start" HeightRequest="84" Margin="234,414,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C31" HorizontalOptions="Start" HeightRequest="87" Margin="234,321,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C32" HorizontalOptions="Start" HeightRequest="87" Margin="234,228,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C33" HorizontalOptions="Start" HeightRequest="87" Margin="234,135,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C34" HorizontalOptions="Start" HeightRequest="28" Margin="205,106,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="59" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C35" HorizontalOptions="Start" HeightRequest="105" Margin="292,134,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C36" HorizontalOptions="Start" HeightRequest="105" Margin="292,244,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C37" HorizontalOptions="Start" HeightRequest="105" Margin="292,464,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C38" HorizontalOptions="Start" HeightRequest="105" Margin="292,574,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray" />
+            <Rectangle x:Name="C39" HorizontalOptions="Start" HeightRequest="32" Margin="220,760,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="63" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C40" HorizontalOptions="Start" HeightRequest="32" Margin="283,760,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="63" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C41" HorizontalOptions="Start" HeightRequest="32" Margin="283,725,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="63" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C42" HorizontalOptions="Start" HeightRequest="105" Margin="322,134,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C43" HorizontalOptions="Start" HeightRequest="38" Margin="248,25,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="102" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C44" HorizontalOptions="Start" HeightRequest="32" Margin="220,725,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="63" StrokeThickness="3" Fill="Gray"/>
+            <Rectangle x:Name="C45" HorizontalOptions="Start" HeightRequest="105" Margin="292,354,0,0" Stroke="Navy" VerticalOptions="Start" WidthRequest="30" StrokeThickness="4" Fill="#FF0B1C52"/>
+            <Rectangle x:Name="S1" HorizontalOptions="Start" HeightRequest="200" Margin="5,25,0,0" Stroke="Black" VerticalOptions="StartAndExpand"  WidthRequest="30" StrokeThickness="4" Fill="#FFA46666"/>
+            <Rectangle x:Name="S2" HorizontalOptions="Start" HeightRequest="200" Margin="5,710,0,0" Stroke="Black" VerticalOptions="StartAndExpand" WidthRequest="30" StrokeThickness="4" Fill="#FFA46666"/>
+            <Rectangle x:Name="S3" HorizontalOptions="Start"  HeightRequest="410" Margin="5,260,0,0" Stroke="Black" VerticalOptions="StartAndExpand"  WidthRequest="30" StrokeThickness="4" Fill="#FFA46666"/>
+            <Rectangle x:Name="Entrance" HorizontalOptions="Start"  HeightRequest="20" Margin="107,893,0,0" Stroke="Black" VerticalOptions="StartAndExpand"  WidthRequest="100" StrokeThickness="4" Fill="#83C698"/>
+            <Label x:Name="T01"  HorizontalOptions="Start" Margin="50,847,0,0"  Text=" 01" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T02"  HorizontalOptions="Start" Margin="50,760,0,0"  Text=" 02" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T03"  HorizontalOptions="Start" Margin="50,616,0,0"  Text=" 03" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T04"  HorizontalOptions="Start" Margin="50,506,0,0"  Text=" 04" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T05"  HorizontalOptions="Start" Margin="50,400,0,0"  Text=" 05" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T06"  HorizontalOptions="Start" Margin="50,290,0,0"  Text=" 06" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T07"  HorizontalOptions="Start" Margin="50,185,0,0"  Text=" 07" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T08"  HorizontalOptions="Start" Margin="50,71,0,0"  Text=" 08" VerticalOptions="Start" FontSize="16" FontAttributes="Bold" TextColor="DarkSlateBlue" />
+            <Label x:Name="T09"  HorizontalOptions="Start" Margin="112,64,0,0"  Text=" 09" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T10"  HorizontalOptions="Start" Margin="112,154,0,0"  Text=" 10" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T11" HorizontalOptions="Start" Margin="112,251,0,0" Text=" 11" VerticalOptions="Start"  FontSize="16" FontAttributes="Bold" TextColor="DarkSlateBlue" />
+            <Label x:Name="T12"  HorizontalOptions="Start" Margin="112,343,0,0"  Text=" 12" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T13"  HorizontalOptions="Start" Margin="112,435,0,0"  Text=" 13" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T14"  HorizontalOptions="Start" Margin="112,531,0,0"  Text=" 14" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T15"  HorizontalOptions="Start" Margin="112,620,0,0"  Text=" 15" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T16"  HorizontalOptions="Start" Margin="142,620,0,0"  Text=" 16" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T17"  HorizontalOptions="Start" Margin="142,531,0,0"  Text=" 17" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T18"  HorizontalOptions="Start" Margin="142,435,0,0"  Text=" 18" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T19"  HorizontalOptions="Start" Margin="142,343,0,0"  Text=" 19" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T20"  HorizontalOptions="Start" Margin="142,251,0,0"  Text=" 20" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T21"  HorizontalOptions="Start" Margin="142,154,0,0"  Text=" 21" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T22"  HorizontalOptions="Start" Margin="142,64,0,0"  Text=" 22" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T23"  HorizontalOptions="Start" Margin="205,171,0,0"  Text=" 23" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T24"  HorizontalOptions="Start" Margin="205,283,0,0"  Text=" 24" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T25"  HorizontalOptions="Start" Margin="205,399,0,0"  Text=" 25" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T26"  HorizontalOptions="Start" Margin="205,509,0,0"  Text=" 26" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T27"  HorizontalOptions="Start" Margin="205,610,0,0"  Text=" 27" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T28"  HorizontalOptions="Start" Margin="234,621,0,0"  Text=" 28" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T29"  HorizontalOptions="Start" Margin="234,531,0,0"  Text=" 29" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T30"  HorizontalOptions="Start" Margin="234,443,0,0"  Text=" 30" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T31"  HorizontalOptions="Start" Margin="234,354,0,0"  Text=" 31" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T32"  HorizontalOptions="Start" Margin="234,258,0,0"  Text=" 32" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T33"  HorizontalOptions="Start" Margin="234,171,0,0"  Text=" 33" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T34"  HorizontalOptions="Start" Margin="221,109,0,0"  Text=" 34" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T35"  HorizontalOptions="Start" Margin="292,177,0,0"  Text=" 35" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T36"  HorizontalOptions="Start" Margin="292,287,0,0"  Text=" 36" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T37"  HorizontalOptions="Start" Margin="292,500,0,0"  Text=" 37" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T38"  HorizontalOptions="Start" Margin="292,610,0,0"  Text=" 38" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T39"  HorizontalOptions="Start" Margin="238,767,0,0"  Text=" 39" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T40"  HorizontalOptions="Start" Margin="301,767,0,0"  Text=" 40" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T41"  HorizontalOptions="Start" Margin="301,730,0,0"  Text=" 41" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T42"  HorizontalOptions="Start" Margin="322,177,0,0"  Text=" 42" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T43"  HorizontalOptions="Start" Margin="283,33,0,0"  Text=" 43" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="T44"  HorizontalOptions="Start" Margin="238,730,0,0"  Text=" 44" VerticalOptions="Start" FontSize="16" FontAttributes="Bold"  TextColor="DarkSlateBlue" />
+            <Label x:Name="Entry"  HorizontalOptions="Start" Margin="130,895,0,0"  Text="Entrance" VerticalOptions="Start" FontSize="12" FontAttributes="Bold"  TextColor="Black" />
+            <Image x:Name="east" Margin="130,797,0,0" VerticalOptions="Start" Source="east.png" WidthRequest="60" HeightRequest="60" />  
         </Grid>
     </ScrollView>
     

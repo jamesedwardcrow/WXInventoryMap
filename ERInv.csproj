@@ -29,14 +29,18 @@
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 		<Copyright>2024</Copyright>
-		<Title>WX Inventory</Title>
+		<Title>WX Inventory Barsamian</Title>
 		<GenerateDocumentationFile>False</GenerateDocumentationFile>
 		<PlatformTarget>AnyCPU</PlatformTarget>
 		<ProduceReferenceAssembly>False</ProduceReferenceAssembly>
-		<Description>An Android app for viewing inventory items.</Description>
+		<Description>An Android app for locating inventory items.</Description>
 		<SignAssembly>False</SignAssembly>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageIcon>appicon.png</PackageIcon>
+		<PackageProjectUrl>https://jamesc.pw</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/jamesedwardcrow/bcode</RepositoryUrl>
+		<PackageTags>net;maui;android;inventory</PackageTags>
+		<PackageId>WXInventoryLocator</PackageId>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
@@ -103,6 +107,9 @@
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
 		<MauiImage Update="Resources\Images\dotnet_bot.svg" BaseSize="168,208" />
+		<MauiImage Update="Resources\Images\east.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</MauiImage>
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
