@@ -21,14 +21,15 @@ namespace ERInv
             actind.IsRunning=true;
             await Task.Yield();
             try
-            {
+            {            
                 Products = new List<Product>();
                 NetworkAccess accessType = Connectivity.Current.NetworkAccess;
 
                 // Make sure that there is an internet connection before defining client
                 if (accessType == NetworkAccess.Internet)
                 {
-                    string URL = "https://jamesc.pw/api/read.php?v=" + srchTermv + "&a=" + srchTerma;
+    // This needs to be edited to point to your own server
+                    string URL = "https://SERVERNAME/api/read.php?v=" + srchTermv + "&a=" + srchTerma;
                     HttpClient client = new();
                     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                     HttpResponseMessage response = client.GetAsync(URL).Result;
